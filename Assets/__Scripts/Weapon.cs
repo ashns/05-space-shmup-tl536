@@ -132,6 +132,12 @@ public class Weapon : MonoBehaviour {
                 p.transform.rotation = Quaternion.AngleAxis(-10, Vector3.back);
                 p.rigid.velocity = p.transform.rotation * vel;
                 break;
+
+            case WeaponType.laser:
+                p = MakeProjectile();
+                Vector3 las = new Vector3(0, 15, 0);
+                p.rigid.velocity = las;
+                break;
         }
     }
 
