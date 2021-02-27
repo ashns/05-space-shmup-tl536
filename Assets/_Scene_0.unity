@@ -407,7 +407,7 @@ MonoBehaviour:
     velocity: 80
   prefabPowerUp: {fileID: 1062273549804748, guid: 9649a9a79085a854d9990613a980f435,
     type: 3}
-  powerUpFrequency: 01000000010000000200000006000000
+  powerUpFrequency: 0100000001000000020000000600000005000000
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
