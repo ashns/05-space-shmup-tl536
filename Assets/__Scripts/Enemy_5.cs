@@ -46,6 +46,7 @@ public class Enemy_5 : Enemy {
     // Override the Move function on Enemy
     public override void Move()
     {
+
         Vector3 tempPos = pos;
 
         float age = Time.time - birthTime;
@@ -55,7 +56,7 @@ public class Enemy_5 : Enemy {
         pos = tempPos;
 
         //rotate a bit about y
-        Vector3 rot = new Vector3(0, sin * waveRotY, 0);
+        Vector3 rot = new Vector3(sin * waveRotY, sin * waveRotY, sin * waveRotY);
         this.transform.rotation = Quaternion.Euler(rot);
 
         // base.Move() still handles the movement down in y
