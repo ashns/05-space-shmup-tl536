@@ -123,7 +123,7 @@ Transform:
   m_GameObject: {fileID: 1776953839283106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 4, z: 1}
+  m_LocalScale: {x: 3, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 4327533348366732}
   m_RootOrder: 0
@@ -288,3 +288,5 @@ MonoBehaviour:
   waveFrequency: 5
   waveWidth: 8
   waveRotY: 45
+  p0: {x: 0, y: 0, z: 0}
+  p1: {x: 0, y: 0, z: 0}
