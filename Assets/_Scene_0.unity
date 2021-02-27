@@ -396,7 +396,7 @@ MonoBehaviour:
     delayBetweenShots: 0
     velocity: 0
   - type: 5
-    letter: O
+    letter: L
     color: {r: 0.9339623, g: 0.110137045, b: 0.110137045, a: 1}
     projectilePrefab: {fileID: 0}
     projectileColor: {r: 1, g: 0, b: 0.06844187, a: 1}
