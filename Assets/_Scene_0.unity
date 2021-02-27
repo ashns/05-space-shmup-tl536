@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabEnemies:
-  - {fileID: 1864666716847092, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
+  - {fileID: 1801717105832950, guid: 7cf23463b59a117469cf2b13a8fd06a6, type: 3}
   - {fileID: 1864666716847092, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
   - {fileID: 1864666716847092, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
   - {fileID: 1801717105832950, guid: cb4206b8e00300649994ecf8ffe838d5, type: 3}
@@ -362,6 +362,7 @@ MonoBehaviour:
   - {fileID: 1700942416061258, guid: 3f6055558a488314cb38691d88c41fdf, type: 3}
   - {fileID: 1700942416061258, guid: 3f6055558a488314cb38691d88c41fdf, type: 3}
   - {fileID: 1539775467464788, guid: 06677ec088bca734db80dc6ecea1d7af, type: 3}
+  - {fileID: 1801717105832950, guid: 7cf23463b59a117469cf2b13a8fd06a6, type: 3}
   enemySpawnPerSecond: 0.5
   enemyDefaultPadding: 1.5
   weaponDefinitions:
@@ -386,6 +387,15 @@ MonoBehaviour:
     delayBetweenShots: 0.4
     velocity: 50
   - type: 6
+    letter: O
+    color: {r: 0, g: 1, b: 0.024693727, a: 1}
+    projectilePrefab: {fileID: 0}
+    projectileColor: {r: 0, g: 1, b: 0.02745098, a: 1}
+    damageOnHit: 0
+    continuousDamage: 0
+    delayBetweenShots: 0
+    velocity: 0
+  - type: 5
     letter: O
     color: {r: 0, g: 1, b: 0.024693727, a: 1}
     projectilePrefab: {fileID: 0}
