@@ -384,7 +384,7 @@ MonoBehaviour:
     projectileColor: {r: 0, g: 0.654902, b: 1, a: 1}
     damageOnHit: 1
     continuousDamage: 0
-    delayBetweenShots: 0.4
+    delayBetweenShots: 0.5
     velocity: 50
   - type: 6
     letter: O
@@ -397,9 +397,9 @@ MonoBehaviour:
     velocity: 0
   - type: 5
     letter: O
-    color: {r: 0, g: 1, b: 0.024693727, a: 1}
+    color: {r: 0.9339623, g: 0.110137045, b: 0.110137045, a: 1}
     projectilePrefab: {fileID: 0}
-    projectileColor: {r: 0, g: 1, b: 0.02745098, a: 1}
+    projectileColor: {r: 1, g: 0, b: 0.06844187, a: 1}
     damageOnHit: 0
     continuousDamage: 0
     delayBetweenShots: 0
