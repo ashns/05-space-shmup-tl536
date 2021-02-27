@@ -7,7 +7,7 @@ public class Hero : MonoBehaviour {
 
     [Header("Set in Inspector")]
     // These fields control the movement of the ship
-    public float speed = 30;
+    public float speed = 50;
     public float rollMult = -45;
     public float pitchMult = 30;
     public float gameRestartDelay = 2f;
@@ -41,7 +41,7 @@ public class Hero : MonoBehaviour {
 
         // Reset the weapons to start _Hero with 1 blaster
         ClearWeapons();
-        weapons[0].SetType(WeaponType.laser);
+        weapons[0].SetType(WeaponType.blaster);
     }
 	
 	// Update is called once per frame

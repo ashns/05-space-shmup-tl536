@@ -135,8 +135,7 @@ public class Weapon : MonoBehaviour {
 
             case WeaponType.laser:
                 p = MakeProjectile();
-                Vector3 las = new Vector3(0, 15, 0);
-                p.rigid.velocity = las;
+                p.rigid.velocity = vel;
                 break;
         }
     }
